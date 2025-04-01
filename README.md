@@ -15,14 +15,15 @@ git clone https://github.com/J3554R/recursive-subdomain.git
 ```
 # ./recursive.py -d target.com -w wordlist.txt
 ```
-You can also add custom ffuf options with the "-ff" flag:
+
+You can also set ffuf options with the "-ff" flag:
 ```
 # ./recursive.py -d target.com -w wordlist.txt -ff "-mc 200 -fw 21"
 ```
 
-## Tip
+#### Note
 
-Set the "default_wordlist" variable in the script to point to your desired default wordlist so you can run the tool with one argument:
+Set the "default_wordlist" variable in the script to point to your desired wordlist so you can run the tool with one argument:
 ```
 # ./recursive.py target.com
 ```
