@@ -1,7 +1,7 @@
 # Recursive Subdomain Bruteforcer via Ffuf
 
 ## Description
-This tool recursivly enumerates for subdomains using ffuf. The tool uses regex to only retrieve the domains.
+This tool recursively enumerates for subdomains using ffuf. The tool uses regex to only retrieve the domains.
 Make sure to have <a href="https://github.com/ffuf/ffuf">ffuf</a> installed.
 
 ## Install
@@ -27,3 +27,5 @@ Set the "default_wordlist" variable in the script to point to your desired wordl
 ```
 # ./recursive.py target.com
 ```
+
+This tool may or may not work on your system. I ran it on my Ubuntu VPS, where it worked successfully, but it failed on my Kali VM.
